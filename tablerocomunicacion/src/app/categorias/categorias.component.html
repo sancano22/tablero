@@ -1,0 +1,7 @@
+<div class='caja'>
+<div [ngStyle]="{'background-color':categoria.color}" *ngFor="let categoria of categorias">
+
+  <a [routerLink]="['/pictogramas', categoria.id]"><img src='../assets/categorias/{{categoria.id}}.jpg' width='100'><br>{{categoria.nombre}}</a>
+</div>
+</div>
+

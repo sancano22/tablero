@@ -1,0 +1,21 @@
+<nav>
+    <ul>
+        <li>
+            <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                <a routerLink="/"><mat-icon>table_view</mat-icon></a>
+              </button>
+        </li>
+    </ul>
+</nav>
+
+
+<div id='caja' class='caja'>
+      <div [ngStyle]="{'border':2px solid pictograma.color}" *ngFor="let pictograma of lista.pictogramas">
+        <img src='../assets/pictogramas/{{categoriaid}}/{{pictograma.imagen}}' width='100' (swipeup)="AgregarPizarra($event,pictograma.imagen)" (click)="AgregarPizarra($event,pictograma.imagen)"><br>{{pictograma.nombre}}
+      </div>
+
+</div>
+
+
+
+    

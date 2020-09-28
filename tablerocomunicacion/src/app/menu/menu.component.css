@@ -1,0 +1,51 @@
+nav {
+    background-color: #434746;
+    position: relative;
+    height: 40px;
+  }
+  nav #principal {
+    float: left;
+  }
+  nav #principal button {
+    border-radius: 0px;
+    background-color: #434746;
+    color: white;
+    padding-right: 3px;
+  }
+  nav #principal button a {
+    color: white;
+    text-decoration: none;
+  }
+  nav #principal button a:hover {
+    color: white;
+    background-color:rgb(36, 139, 223);
+  }
+  nav #principal button:hover {
+    color: white;
+    background-color: rgb(36, 139, 223);
+  }
+  nav #secundario {
+    float: right;
+    padding-right: 5px;
+  }
+  nav #secundario button {
+    border: 0px;
+    background-color: #434746;
+    color: white;
+    padding: 0px;
+  }
+  nav #secundario button a {
+    color: white;
+    text-decoration: none;
+  }
+  nav #secundario button a:hover {
+    color: white;
+    background-color: pink;
+  }
+  nav #secundario button:hover {
+    color: white;
+    background-color: pink;
+  }
+  mat-button{
+    border-radius: 0px !important;
+  }
